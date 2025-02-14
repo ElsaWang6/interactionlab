@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ball</title>
+    <style>
+        body {
+            background-color: #fffacd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .photo-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 20px; 
+        }
+        .photo {
+            width: 200px; 
+            height: 200px;
+            object-fit: cover; 
+        }
+        .homepage-link {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 1rem;
+            text-decoration: none;
+            color: #000;
+            background-color: #fff;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="photo-container">
+        <img src="b1.jpeg" alt="1" class="photo">
+        <img src="b2.jpeg" alt="2" class="photo">
+        <img src="b3.jpeg" alt="3" class="photo">
+        <img src="b4.jpeg" alt="4" class="photo">
+    </div>
+    <a href="week1challenge.html" class="homepage-link">Homepage</a>
+</body>
+</html>
